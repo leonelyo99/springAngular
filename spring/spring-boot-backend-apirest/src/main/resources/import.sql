@@ -1,0 +1,9 @@
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Leonel','Mazzan','leo@yopmail.com', '2018-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Lautaro','Fernandez','lau@yopmail.com', '2018-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Carlos','Ripari','car@yopmail.com', '2018-03-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Juanelo','Solomeo','juanelo@yopmail.com', '2018-04-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Fernando','Alerdi','fer@yopmail.com', '2018-05-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Marcelo','Martinez','mar@yopmail.com', '2018-06-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Gaston','Aro','gas@yopmail.com', '2018-06-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Alberto','Aballay','alb@yopmail.com', '2018-07-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Franco','Persia','fran@yopmail.com', '2018-08-01');
