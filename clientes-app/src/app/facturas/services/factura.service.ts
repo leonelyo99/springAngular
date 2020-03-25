@@ -4,14 +4,12 @@ import { Observable } from 'rxjs';
 import { Factura } from '../models/factura';
 import { Producto } from '../models/producto';
 
-import { URL_BACKEND } from '../../config/config';
-
 @Injectable({
   providedIn: 'root'
 })
 export class FacturaService {
 
-  private urlEndPoint: string = URL_BACKEND + '/api/facturas';
+  private urlEndPoint: string = 'http://localhost:8080/api/facturas';
 
   constructor(private http: HttpClient) { }
 

@@ -7,11 +7,9 @@ import { Observable, throwError } from 'rxjs';
 
 import { Router } from '@angular/router';
 
-import { URL_BACKEND } from '../config/config';
-
 @Injectable()
 export class ClienteService {
-  private urlEndPoint: string = URL_BACKEND + '/api/clientes';
+  private urlEndPoint: string = 'http://localhost:8080/api/clientes';
 
   constructor(private http: HttpClient, private router: Router) { }
 
